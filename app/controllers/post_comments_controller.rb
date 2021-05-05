@@ -16,6 +16,7 @@ class PostCommentsController < ApplicationController
 
    def post_comment_params
    params.require(:post_comment).permit(:comment)
+   
    end
 
 end
